@@ -12,16 +12,16 @@ import (
 
 	"golang.org/x/crypto/ssh/terminal"
 
-	"github.com/btcsuite/btcd/btcjson"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/rpcclient"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/internal/cfgutil"
-	"github.com/btcsuite/btcwallet/netparams"
-	"github.com/btcsuite/btcwallet/wallet/txauthor"
-	"github.com/btcsuite/btcwallet/wallet/txrules"
+	"github.com/MegaGrindStone/btcd/btcjson"
+	"github.com/MegaGrindStone/btcd/chaincfg/chainhash"
+	"github.com/MegaGrindStone/btcd/rpcclient"
+	"github.com/MegaGrindStone/btcd/txscript"
+	"github.com/MegaGrindStone/btcd/wire"
+	"github.com/MegaGrindStone/btcutil"
+	"github.com/MegaGrindStone/btcwallet/internal/cfgutil"
+	"github.com/MegaGrindStone/btcwallet/netparams"
+	"github.com/MegaGrindStone/btcwallet/wallet/txauthor"
+	"github.com/MegaGrindStone/btcwallet/wallet/txrules"
 	"github.com/jessevdk/go-flags"
 )
 

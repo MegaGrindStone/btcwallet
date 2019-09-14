@@ -9,13 +9,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/MegaGrindStone/btcd/chaincfg/chainhash"
+	"github.com/MegaGrindStone/btcd/txscript"
+	"github.com/MegaGrindStone/btcd/wire"
+	"github.com/MegaGrindStone/btcwallet/chain"
+	"github.com/MegaGrindStone/btcwallet/waddrmgr"
+	"github.com/MegaGrindStone/btcwallet/walletdb"
+	"github.com/MegaGrindStone/btcwallet/wtxmgr"
 )
 
 const (

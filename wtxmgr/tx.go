@@ -9,12 +9,12 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/MegaGrindStone/btcd/blockchain"
+	"github.com/MegaGrindStone/btcd/chaincfg"
+	"github.com/MegaGrindStone/btcd/chaincfg/chainhash"
+	"github.com/MegaGrindStone/btcd/wire"
+	"github.com/MegaGrindStone/btcutil"
+	"github.com/MegaGrindStone/btcwallet/walletdb"
 )
 
 // Block contains the minimum amount of data to uniquely identify any block on

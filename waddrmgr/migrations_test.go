@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/MegaGrindStone/btcd/chaincfg"
+	"github.com/MegaGrindStone/btcd/chaincfg/chainhash"
+	"github.com/MegaGrindStone/btcwallet/walletdb"
 )
 
 // applyMigration is a helper function that allows us to assert the state of the

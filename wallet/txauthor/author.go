@@ -8,12 +8,12 @@ package txauthor
 import (
 	"errors"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/wallet/txrules"
-	"github.com/btcsuite/btcwallet/wallet/txsizes"
+	"github.com/MegaGrindStone/btcd/chaincfg"
+	"github.com/MegaGrindStone/btcd/txscript"
+	"github.com/MegaGrindStone/btcd/wire"
+	"github.com/MegaGrindStone/btcutil"
+	"github.com/MegaGrindStone/btcwallet/wallet/txrules"
+	"github.com/MegaGrindStone/btcwallet/wallet/txsizes"
 )
 
 // SumOutputValues sums up the list of TxOuts and returns an Amount.

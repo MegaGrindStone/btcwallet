@@ -8,11 +8,11 @@
 // Full documentation of the API implemented by this package is maintained in a
 // language-agnostic document:
 //
-//   https://github.com/btcsuite/btcwallet/blob/master/rpc/documentation/api.md
+//   https://github.com/MegaGrindStone/btcwallet/blob/master/rpc/documentation/api.md
 //
 // Any API changes must be performed according to the steps listed here:
 //
-//   https://github.com/btcsuite/btcwallet/blob/master/rpc/documentation/serverchanges.md
+//   https://github.com/MegaGrindStone/btcwallet/blob/master/rpc/documentation/serverchanges.md
 package rpcserver
 
 import (
@@ -25,20 +25,20 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/rpcclient"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/hdkeychain"
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/internal/cfgutil"
-	"github.com/btcsuite/btcwallet/internal/zero"
-	"github.com/btcsuite/btcwallet/netparams"
-	pb "github.com/btcsuite/btcwallet/rpc/walletrpc"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/MegaGrindStone/btcd/chaincfg/chainhash"
+	"github.com/MegaGrindStone/btcd/rpcclient"
+	"github.com/MegaGrindStone/btcd/txscript"
+	"github.com/MegaGrindStone/btcd/wire"
+	"github.com/MegaGrindStone/btcutil"
+	"github.com/MegaGrindStone/btcutil/hdkeychain"
+	"github.com/MegaGrindStone/btcwallet/chain"
+	"github.com/MegaGrindStone/btcwallet/internal/cfgutil"
+	"github.com/MegaGrindStone/btcwallet/internal/zero"
+	"github.com/MegaGrindStone/btcwallet/netparams"
+	pb "github.com/MegaGrindStone/btcwallet/rpc/walletrpc"
+	"github.com/MegaGrindStone/btcwallet/waddrmgr"
+	"github.com/MegaGrindStone/btcwallet/wallet"
+	"github.com/MegaGrindStone/btcwallet/walletdb"
 )
 
 // Public API version constants

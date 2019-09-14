@@ -9,9 +9,9 @@ package txrules
 import (
 	"errors"
 
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/MegaGrindStone/btcd/txscript"
+	"github.com/MegaGrindStone/btcd/wire"
+	"github.com/MegaGrindStone/btcutil"
 )
 
 // DefaultRelayFeePerKb is the default minimum relay fee policy for a mempool.

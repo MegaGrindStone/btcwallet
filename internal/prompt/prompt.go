@@ -12,8 +12,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/btcsuite/btcutil/hdkeychain"
-	"github.com/btcsuite/btcwallet/internal/legacy/keystore"
+	"github.com/MegaGrindStone/btcutil/hdkeychain"
+	"github.com/MegaGrindStone/btcwallet/internal/legacy/keystore"
 	"golang.org/x/crypto/ssh/terminal"
 )
 
