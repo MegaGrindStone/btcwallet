@@ -3,6 +3,6 @@ module github.com/MegaGrindStone/btcwallet/wallet/txrules
 go 1.12
 
 require (
-	github.com/MegaGrindStone/btcd v0.0.0-20190824003749-130ea5bddde3
-	github.com/MegaGrindStone/btcutil v0.0.0-20190425235716-9e5f4b9a998d
+	github.com/MegaGrindStone/btcd v0.0.0-20190913193658-c94d0bf04502
+	github.com/MegaGrindStone/btcutil v0.0.0-20190913045846-ec81bb1cdd76
 )
