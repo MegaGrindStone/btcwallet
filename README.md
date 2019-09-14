@@ -211,7 +211,7 @@ verify the signature perform the following:
   placeholder for the specific tag:
   ```bash
   git tag -v TAG_NAME
-  ```
+  ``` 
 
 ## License
 
