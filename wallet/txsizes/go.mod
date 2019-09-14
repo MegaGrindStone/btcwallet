@@ -3,7 +3,7 @@ module github.com/MegaGrindStone/btcwallet/wallet/txsizes
 go 1.12
 
 require (
-	github.com/MegaGrindStone/btcd v0.0.0-20190824003749-130ea5bddde3
+	github.com/MegaGrindStone/btcd v0.0.0-20190913193658-c94d0bf04502
 	github.com/btcsuite/goleveldb v1.0.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/kr/pretty v0.1.0 // indirect
