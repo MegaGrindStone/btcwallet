@@ -16,8 +16,8 @@ import (
 	"github.com/MegaGrindStone/btcutil/gcs/builder"
 	"github.com/MegaGrindStone/btcwallet/waddrmgr"
 	"github.com/MegaGrindStone/btcwallet/wtxmgr"
-	"github.com/lightninglabs/neutrino"
-	"github.com/lightninglabs/neutrino/headerfs"
+	"github.com/MegaGrindStone/neutrino"
+	"github.com/MegaGrindStone/neutrino/headerfs"
 )
 
 // NeutrinoClient is an implementation of the btcwalet chain.Interface interface.

@@ -18,7 +18,7 @@ import (
 	"github.com/MegaGrindStone/btcwallet/rpc/legacyrpc"
 	"github.com/MegaGrindStone/btcwallet/wallet"
 	"github.com/MegaGrindStone/btcwallet/walletdb"
-	"github.com/lightninglabs/neutrino"
+	"github.com/MegaGrindStone/neutrino"
 )
 
 var (

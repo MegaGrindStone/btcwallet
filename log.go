@@ -18,7 +18,7 @@ import (
 	"github.com/MegaGrindStone/btcwallet/wallet"
 	"github.com/MegaGrindStone/btcwallet/wtxmgr"
 	"github.com/jrick/logrotate/rotator"
-	"github.com/lightninglabs/neutrino"
+	"github.com/MegaGrindStone/neutrino"
 )
 
 // logWriter implements an io.Writer that outputs to both standard output and

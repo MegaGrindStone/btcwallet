@@ -21,7 +21,7 @@ import (
 	"github.com/MegaGrindStone/btcwallet/netparams"
 	"github.com/MegaGrindStone/btcwallet/wallet"
 	flags "github.com/jessevdk/go-flags"
-	"github.com/lightninglabs/neutrino"
+	"github.com/MegaGrindStone/neutrino"
 )
 
 const (
